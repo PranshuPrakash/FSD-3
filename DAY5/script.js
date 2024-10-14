@@ -41,3 +41,36 @@ function validate() {
       }
     else{document.getElementById("res").innerHTML=x,"FAILED";}
   }
+//   let a=12;
+//   let b='12';
+//   console.log(a==b);
+//   console.log(a===b);
+//   let a=(x,y)=>{
+//     console.log("hello");
+// console.log(x+y);
+//     return(x+y);
+// }
+// let y=a(12,13);
+// console.log(y);
+// let say=()=>alert("no!")
+// say();
+
+
+
+
+
+
+
+
+
+
+
+
+// let b=()=>alert("well done!");
+// b();
+function display(){
+    let p1=document.querySelector("p");
+    p1.innerHTML="result";
+    p1.style.backgroundColor="red";
+    
+}
